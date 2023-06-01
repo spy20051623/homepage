@@ -26,10 +26,10 @@ export default {
         getData(idx) {
             if (idx === '1') {
                 return Array(
-                    {val: <el-link href="calculate" type="primary">数值计算器</el-link>},
+                    {val: <el-link href="wangchuan/calculate" type="primary">数值计算器</el-link>},
                     {val: <el-link href="wangchuan.pdf" type="primary">数值计算说明文档</el-link>},
-                    {val: <el-link href="mid-autumn" type="primary">辨音猜词辅助工具</el-link>},
-                    {val: <el-link href="wordle" type="primary">辨音猜词辅助工具新版</el-link>},
+                    {val: <el-link href="mid-autumn" type="primary" disabled>辨音猜词辅助工具</el-link>},
+                    {val: <el-link href="wordle" type="primary" disabled>辨音猜词辅助工具新版</el-link>},
                     {val: <el-link href="wangchuan/random" type="primary">随机概率模拟器</el-link>}
                 );
             } else
